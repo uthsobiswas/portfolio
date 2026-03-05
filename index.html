@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
 <meta charset="UTF-8">
-<title>Uthso Biswas | Web Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Uthso Biswas | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<header>
+
+<h2 class="logo">Uthso</h2>
+
 <nav>
-<h2>Uthso Biswas</h2>
+
+<a href="#">Home</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
 </nav>
+
+</header>
+
 
 <section class="hero">
 
-<img src="profile.jpg" class="profile" alt="Uthso Photo">
+<img src="profile.jpg" class="profile">
 
 <h1>Hello, I'm Uthso</h1>
 
@@ -23,55 +41,41 @@
 Biomedical Engineering Student | Aspiring Web Developer
 </p>
 
-<p>
-I build websites and web applications using HTML, CSS and JavaScript.
+<p class="desc">
+I build responsive websites using HTML, CSS and JavaScript.
 </p>
 
-<a href="https://github.com/uthsobiswas" target="_blank">
-<button>View GitHub</button>
-</a>
-
 </section>
 
 
-<section>
 
-<h2>Education</h2>
-
-<div class="card">
-Biomedical Engineering<br>
-6th Semester
-</div>
-
-</section>
-
-
-<section>
+<section id="skills" class="skills">
 
 <h2>Skills</h2>
 
-<div class="grid">
+<div class="skills-container">
 
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">JavaScript</div>
+<div class="skill-card">HTML</div>
+<div class="skill-card">CSS</div>
+<div class="skill-card">JavaScript</div>
 
 </div>
 
 </section>
 
 
-<section>
+
+<section id="projects" class="projects">
 
 <h2>Projects</h2>
 
-<div class="grid">
+<div class="projects-container">
 
-<div class="card">
+<div class="project-card">
 
 <h3>Portfolio Website</h3>
 
-<p>My personal developer portfolio website.</p>
+<p>My personal developer portfolio.</p>
 
 <a href="https://uthsobiswas.github.io/portfolio/" target="_blank">
 <button>View Project</button>
@@ -80,30 +84,48 @@ Biomedical Engineering<br>
 </div>
 
 
-<div class="card">
+
+<div class="project-card">
 
 <h3>To-Do App</h3>
 
-<p>Task manager built using JavaScript.</p>
+<p>Task manager built with JavaScript.</p>
 
-<a href="https://github.com/uthsobiswas" target="_blank">
-<button>View Code</button>
+<a href="https://uthsobiswas.github.io/todo-app/" target="_blank">
+<button>View Project</button>
 </a>
 
 </div>
+
+
+
+<div class="project-card">
+
+<h3>Weather App</h3>
+
+<p>Weather app using OpenWeather API.</p>
+
+<a href="https://uthsobiswas.github.io/weather-app/" target="_blank">
+<button>View Project</button>
+</a>
+
+</div>
+
 
 </div>
 
 </section>
 
 
-<section>
+
+<section id="contact" class="contact">
 
 <h2>Contact</h2>
 
 <p>Email: uthsoroy2002@gmail.com</p>
 
 </section>
+
 
 
 <footer>
@@ -113,5 +135,4 @@ Biomedical Engineering<br>
 </footer>
 
 </body>
-
 </html>
